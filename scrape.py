@@ -16,7 +16,7 @@ chrome_options.add_argument("--disable-infobars")
 driver = webdriver.Chrome('/Applications/Python 3.6/chromedriver-2') #here you need to specify the directory where you store the driver
 
 #list the OKTMOs for all the municipalities that you are interested in. I use an example of one of them
-oktmo=["01701000"]
+oktmo=["XXXXXXXX"]
 
 for i in list(range(len(oktmo))):
     
