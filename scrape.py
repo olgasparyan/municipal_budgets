@@ -61,7 +61,6 @@ for i in list(range(len(oktmo))):
     data=data.reset_index()
     del data['index']
     data=data.drop(data.columns[1], axis=1)
-    #data.rename(columns={'0':''}, inplace=True)
     data=data.transpose()
     
     data.columns = data.iloc[0]
