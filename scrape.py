@@ -29,7 +29,7 @@ for i in list(range(len(oktmo))):
 
     time.sleep(3)
     
-    #specify the necessary years: hear I tag only the 2018, but it is going to be identical for any year
+    #specify the necessary years: here I tag only the 2018, but it is going to be identical for any year
     try:
         year18=driver.find_element_by_xpath("//td/input[@value='2018']").click()
     except NoSuchElementException:
